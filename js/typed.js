@@ -1,7 +1,7 @@
 const TEXTS = [
-    "cudi if i find u its LIT",
-    "i own haunts.gay",
-    "you're a slave to the money then you die.",
+    "dm @sporefuls to buy links",
+    "i own abusive.me",
+    "restrict top 1 gambler",
 ]
 
 async function sleep(ms) {
