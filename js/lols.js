@@ -1,7 +1,7 @@
 const TEXTS = [
-    "dm @sporefuls to buy links",
-    "i own abusive.me",
-    "restrict top 1 gambler",
+    "hikikomori",
+    "spiderman",
+    "lynx africa",
 ]
 
 async function sleep(ms) {
