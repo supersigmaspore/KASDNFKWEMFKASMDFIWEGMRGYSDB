@@ -1,6 +1,3 @@
-<!--
-made by the big restrict
--->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,137 +26,120 @@ made by the big restrict
     <style>
         .username {
             font-family: "MC", sans-serif;
+            color: #FFFFFF;
         }
 
-        .username {
-            color: #FFFFFF
-        }   
-    
         .bio-text {
             font-family: "MC", sans-serif;
-        }
-
-        .bio-text {
-            color: #FFFFFF
+            color: #FFFFFF;
         }
 
         .social-icons {
-            color: #FFFFFF
+            color: #FFFFFF;
         }
 
         .btn-link {
-            color: #FFFFFF
-        }
-
-        .btn-link {
+            color: #FFFFFF;
             background-color: Transparent;
         }
 
         body {
             background-color: #0d0d0e;
-            background-size: cover
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
         }
 
+        .video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
 
         .musicbtn {
-            background: #000
+            background: #000;
         }
-    </style>    
-        <div class="bg" style="background-image: url(https://cdn.xoa.me/uploads/4bb219ee-b157-4ad5-aae8-0ff8635aa845.gif);"></div>
+    </style>
 
-        
-    <body>
-        <header>
-            <nav>
-                <div class="header_logo"><img src="https://pluspng.com/img-png/transparent-png-hd-dates-hd-2008-0075-png-1280.png" alt="" srcset=""></div>
-                <div class="header_links">
-                    <ul class="nav_links">
-                        <li class="nav_link"><a href="https://abusive.me/">Home</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+    <!-- Background video -->
+    <video class="video-background" autoplay muted loop>
+        <source src="https://cdn.xoa.me/uploads/d5f443ee-0d0a-43ec-bd13-48ef93577fdb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
-        <div class>
-            <div class="center">
-   <div class="overlay" id="overlay">
+    <div class="overlay" id="overlay">
         <div class="proceed-button" onclick="removeOverlay(); playMusic()"><img src="https://cdn.discordapp.com/emojis/1091979230901968936.gif?size=96&quality=lossless"></div>
     </div>
+
     <script>
-    function removeOverlay() {
-        var overlay = document.getElementById("overlay");
-        overlay.style.display = "none";
-    }
+        function removeOverlay() {
+            var overlay = document.getElementById("overlay");
+            overlay.style.display = "none";
+        }
 
-    function playMusic() {
-        var audio = new Audio("brad.MP3");
-        audio.loop = true;  // Enable looping
-        audio.play();
-    }
-</script>
+        function playMusic() {
+            var audio = new Audio("mowg.mp3");
+            audio.loop = true;  // Enable looping
+            audio.play();
+        }
+    </script>
 
-        
+    <header>
+        <nav>
+            <div class="header_logo"><img src="https://pluspng.com/img-png/transparent-png-hd-dates-hd-2008-0075-png-1280.png" alt="" srcset=""></div>
+            <div class="header_links">
+                <ul class="nav_links">
+                    <li class="nav_link"><a href="https://abusive.me/">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-                <div class="container blur"><img class="pfp-image" style="border: 0px solid #1f202038;" src="https://cdn.discordapp.com/attachments/1274759546572640299/1287055380714618910/37.jpg?ex=66f0273b&is=66eed5bb&hm=3b1176c718932d1f910be75cf227f26396680974987a95acd6b55c8fb7cfcdaf&" alt="pfp">
-                    <p class="username"><span class="sparkle">stupid </span><img class="badge" src="https://cdn.discordapp.com/emojis/1125887925142425671.gif" title="Owner"></p>  
-                   <img class="badge" src="https://cdn.discordapp.com/emojis/1128584400620228689.webp?size=96&quality=lossless" title="/mail"></p>  
-                    <span id="typedOut" class="bio-text" style="height: 15px"></span>
-                    <div class="socials">
-                        <div class="tooltip">
-                            <a href="https://discord.gg/abusiveme" target="_blank">
+    <div class>
+        <div class="center">
+            <div class="container blur"><img class="pfp-image" style="border: 0px solid #1f202038;" src="" alt="pfp">
+                <p class="username"><span class="sparkle">stupid </span><img class="badge" src="https://cdn.discordapp.com/emojis/1125887925142425671.gif" title="Owner"></p>  
+                <img class="badge" src="https://cdn.discordapp.com/emojis/1128584400620228689.webp?size=96&quality=lossless" title="/mail"></p>  
+                <span id="typedOut" class="bio-text" style="height: 15px"></span>
+                <div class="socials">
+                    <div class="tooltip">
+                        <a href="https://discord.gg/abusiveme" target="_blank">
                             <span id="copyclipboard" class="tooltiptext">discord</span>
                             <i id="disc" class="fa-brands fa-discord social-icons"></i>
                         </a>
-</div>
+                    </div>
+                </div><img class="discord-widget" src="https://discord.c99.nl/widget/theme-4/1272704884826837154.png" alt="Discord Widget">
+            </div>
+        </div>
+    </div>
 
-                    </div><img class="discord-widget" src="https://discord.c99.nl/widget/theme-4/1272704884826837154.png" alt="Discord Widget">
-                </div>
-            </div>
-        </div>
-          <div class="snowflakes" aria-hidden="true">
-            <div class="snowflake">
-                𒌐
-            </div>
-            <div class="snowflake">
-                𒌐
-            </div>
-            <div class="snowflake">
-                𒌐
-            </div>
-            <div class="snowflake">
-                𒌐
-            </div>
-            <div class="snowflake">
-                𒌐
-            </div>
-            <div class="snowflake">
-                𒌐
-            </div>
-            <div class="snowflake">
-                𒌐
-            </div>
-            <div class="snowflake">
-                𒌐
-            </div>
-            <div class="snowflake">
-                𒌐
-            </div>
-            <div class="snowflake">
-                𒌐
-            </div>
-            <div class="snowflake">
-                𒌐
-            </div>
-            <div class="snowflake">
-                𒌐
-            </div>
-        </div>
-        <script src="js/purple.js"></script>
-        <script src="js/pause.js"></script>
-        <script src="js/pagecopy.js"></script>
-        <script src="js/bird.js"></script>
-        <script src="js/rar.js"></script>
-        <script src="js/typed.js"></script>
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">𒌐</div>
+        <div class="snowflake">𒌐</div>
+        <div class="snowflake">𒌐</div>
+        <div class="snowflake">𒌐</div>
+        <div class="snowflake">𒌐</div>
+        <div class="snowflake">𒌐</div>
+        <div class="snowflake">𒌐</div>
+        <div class="snowflake">𒌐</div>
+        <div class="snowflake">𒌐</div>
+        <div class="snowflake">𒌐</div>
+        <div class="snowflake">𒌐</div>
+    </div>
+
+    <script src="js/purple.js"></script>
+    <script src="js/pause.js"></script>
+    <script src="js/pagecopy.js"></script>
+    <script src="js/bird.js"></script>
+    <script src="js/rar.js"></script>
+    <script src="js/typed.js"></script>
+
+    <footer>@abusive.me all rights reserved 2024</footer>
 </body>
-  <footer>@abusive.me all rights reserved 2024</footer>
+
 </html>
