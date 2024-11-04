@@ -105,11 +105,21 @@ made by the big restrict
                    <img class="badge" src="https://cdn.discordapp.com/emojis/1128584400620228689.webp?size=96&quality=lossless" title="/mail"></p>  
                     <span id="typedOut" class="bio-text" style="height: 15px"></span>
                     <div class="socials">
-                        <div class="tooltip">
-                            <a href="https://discord.gg/abusiveme" target="_blank">
-                            <span id="copyclipboard" class="tooltiptext">discord</span>
-                            <i id="disc" class="fa-brands fa-discord social-icons"></i>
-                        </a>
+<div class="tooltip">
+    <span id="copyclipboard" class="tooltiptext">Copy Username</span>
+    <i id="disc" class="fa-brands fa-discord social-icons" onclick="copyUsername()"></i>
+</div>
+
+<script>
+function copyUsername() {
+    const username = 'YourUsernameHere'; // Replace with the actual username
+    navigator.clipboard.writeText(username).then(() => {
+        alert('Username copied to clipboard!');
+    }).catch(err => {
+        console.error('Failed to copy: ', err);
+    });
+}
+</script>
 </div>
 
                     </div><img class="discord-widget" src="https://discord.c99.nl/widget/theme-4/1272704884826837154.png" alt="Discord Widget">
