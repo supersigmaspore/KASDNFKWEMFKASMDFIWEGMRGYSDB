@@ -8,9 +8,9 @@ made by the big restrict
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="stupid" />
-    <meta property="og:description" content="@stupids" />
-    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1285284097031409726/1303481640152207360/5eab8e9d964d69354ff7df04e090bc05.png?ex=672be960&is=672a97e0&hm=27d7a3424f6b23b51c56d73463d612eebddd44207dcd32abef8b5f06a41a4cab&">
+    <meta property="og:title" content="sporeful" />
+    <meta property="og:description" content="dm @sporefuls to buy" />
+    <meta property="og:image" content="https://cdn.discordapp.com/emojis/1150451394554380319.gif?size=96&quality=lossless">
     <meta property="og:url" content="abusive.me">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/cdn-cgi/apps/head/7_N3aHJ6fMx1u8oH90iZ0LNZJvY.js"></script>
@@ -23,10 +23,9 @@ made by the big restrict
     <meta name="theme-color" content="#303135">
     <script disable-devtool-auto src="js/disable-devtool.min.js"></script>
     <script src="js/disable_inspect.js"></script>
-    <script src="js/snow.js"></script>
 </head>
 
-<body>
+<body onload="updateViewerCount()">
     <style>
         .username {
             font-family: "MC", sans-serif;
@@ -65,8 +64,19 @@ made by the big restrict
         .musicbtn {
             background: #000
         }
+
+        .viewer-count-overlay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
     </style>    
-        <div class="bg" style="background-image: url(https://cdn.xoa.me/uploads/b0264cf8-dd27-4039-8d06-d7719a0d5df6.gif);"></div>
+        <div class="bg" style="background-image: url(https://cdn.xoa.me/uploads/4bb219ee-b157-4ad5-aae8-0ff8635aa845.gif);"></div>
 
         
     <body>
@@ -93,7 +103,7 @@ made by the big restrict
     }
 
     function playMusic() {
-        var audio = new Audio("Sweetly X L's (Remix by YSHI).mp3");
+        var audio = new Audio("brad.MP3");
         audio.loop = true;  // Enable looping
         audio.play();
     }
@@ -101,36 +111,20 @@ made by the big restrict
 
         
 
-                <div class="container blur"><img class="pfp-image" style="border: 0px solid #1f202038;" src="https://media.discordapp.net/attachments/1285284097031409726/1303130709434695741/b1QZMLT.jpg?ex=672b4b4c&is=6729f9cc&hm=3cd4a33ffa19a12d31e91d00e31e162518c650065dd6ea6dede010d1035580c2&=&format=webp&width=507&height=634" alt="pfp">
-                    <p class="username"><span class="sparkle">stupid </span><img class="badge" src="https://cdn.discordapp.com/emojis/1125887925142425671.gif" title="Owner"></p>  
+                <div class="container blur"><img class="pfp-image" style="border: 0px solid #1f202038;" src="https://cdn.discordapp.com/attachments/1274759546572640299/1287055380714618910/37.jpg?ex=66f0273b&is=66eed5bb&hm=3b1176 c718932d1f910be75cf227f26396680974987a95acd6b55c8fb7cfcdaf&" alt="pfp">
+                    <p class="username"><span class="sparkle">spore </span><img class="badge" src="https://cdn.discordapp.com/emojis/1125887925142425671 .gif" title="Owner"></p>  
                    <img class="badge" src="https://cdn.discordapp.com/emojis/1128584400620228689.webp?size=96&quality=lossless" title="/mail"></p>  
                     <span id="typedOut" class="bio-text" style="height: 15px"></span>
                     <div class="socials">
-<div class="tooltip">
-    <span id="copyclipboard" class="tooltiptext">Copy Username</span>
-    <i id="disc" class="fa-brands fa-discord social-icons" onclick="copyUsername()"></i>
-</div>
-
-<script>
-function copyUsername() {
-    const username = 'stupids'; // Replace with the actual username
-    navigator.clipboard.writeText(username).then(() => {
-        alert('Username copied to clipboard!');
-    }).catch(err => {
-        console.error('Failed to copy: ', err);
-    });
-}
-</script>
-</div>
-
+                        <div class="tooltip"><a><span id="copyclipboard" class="tooltiptext">sporefuls</span><i id="disc" class="fa-brands fa-discord social-icons"></i></a></div>
                     </div><img class="discord-widget" src="https://discord.c99.nl/widget/theme-4/1272704884826837154.png" alt="Discord Widget">
+                    <div class="viewer-count-overlay">
+                        <p>Viewer count: <span id="viewer-count">0</span></p>
+                    </div>
                 </div>
             </div>
         </div>
           <div class="snowflakes" aria-hidden="true">
-            <div class="snowflake">
-                
-            </div>
             <div class="snowflake">
                 
             </div>
@@ -171,6 +165,7 @@ function copyUsername() {
         <script src="js/bird.js"></script>
         <script src="js/rar.js"></script>
         <script src="js/typed.js"></script>
+        <script src="js/snow.js"></script>
 </body>
   <footer>@abusive.me all rights reserved 2024</footer>
 </html>
