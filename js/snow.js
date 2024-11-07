@@ -22,8 +22,8 @@ var snowStorm = (function(window, document) {
     this.flakeRightOffset = 0;
     this.flakeWidth = 8;
     this.flakeHeight = 8;
-    this.vMaxX = 5;
-    this.vMaxY = 4;
+    this.vMaxX = 3;
+    this.vMaxY = 2;
     this.zIndex = 0;
     var storm = this, features, isIE = navigator.userAgent.match(/msie/i), isIE6 = navigator.userAgent.match(/msie 6/i), isMobile = navigator.userAgent.match(/mobile|opera m(ob|in)/i), isBackCompatIE = (isIE && document.compatMode === 'BackCompat'), noFixed = (isBackCompatIE || isIE6), screenX = null, screenX2 = null, screenY = null, scrollY = null, docHeight = null, vRndX = null, vRndY = null, windOffset = 1, windMultiplier = 2, flakeTypes = 6, fixedForEverything = false, targetElementIsRelative = false, opacitySupported = (function() {
         try {
