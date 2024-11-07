@@ -173,6 +173,6 @@ function createDiv(height, width) {
 }
 
 function newColour() {
-	const colors = ['#000000', '#000000'];
+	const colors = ['white', 'white'];
 	return colors[Math.floor(Math.random() * colors.length)];
 }
