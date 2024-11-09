@@ -2,6 +2,7 @@ const TEXTS = [
     "untrustable",
     "trap - 1949",
     "@stupids",
+    "free jaydes",
 ]
 
 async function sleep(ms) {
