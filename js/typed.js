@@ -1,8 +1,8 @@
 const TEXTS = [
-    "resent.",
+    "kys",
     "???",
-    "aneurysm",
-    "@czn",
+    "strain.",
+    "stupid",
 ]
 
 async function sleep(ms) {
